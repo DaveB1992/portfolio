@@ -10,8 +10,30 @@
 
 <body>
     <header>
-        <h1>Contacts Page</h1>
+        <h1>Want to get in touch? Contact me below!</h1>
+        <p>If you're looking to get in touch regarding an application or for some more information, please feel free to
+            use the options on this page to reach me. </p>
     </header>
+    <form>
+        <fieldset>
+            <Legend>Personal Details</Legend>
+            <label for="FirstName">First Name</label>
+            <input id="FirstName" type="Text"><br>
+            <label for="LastName">Last Name</label>
+            <input id="LastName" type="Text"><br>
+            <label for="email">Email</label>
+            <input id="email" type="Text"><br>
+        </fieldset>
+        <fieldset>
+            <Legend>Reason For Contact</Legend>
+            <input type="checkbox" name="job-application-contact" value="job"> Job Application
+            <input type="checkbox" name="help-and-advice" value="help"> Coding help and advice
+            <input type="checkbox" name="coffee-chat-meeting" value="coffee"> Schedule a coffee chat with me<br>
+            <label for="info">Additional information for me</label>
+            <input id="info" type="text">
+        </fieldset>
+    </form>
+
 </body>
 
 </html>
