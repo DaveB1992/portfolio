@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+}
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+
+body{ 
+    font-family: "Poppins", sans-serif;
+    background: #37476C;
+}
+
+.introduction {  
+    color: #E6ECF3;
+    display: flex;
+    border: solid, red;
+    margin: 10vh;
+    height: 200px;
+    
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    margin: 30px;
+    font-size: 3vh;
+}
+
+a{
+    display: inline-block;
+    text-decoration: none;
+    color: #E6ECF3;
+}
+
+
+
+a:hover {
+    color: #0EA5E9;
+    transition: 0.25s;
+}
