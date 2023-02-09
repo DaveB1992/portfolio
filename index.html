@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" href="styles.css">
     <title>Dave Bratby Protolio</title>
 </head>
 
@@ -18,23 +18,60 @@
         <div class="introduction">
             <header>
                 <h1>Hi there, my name is Dave and I create wesbites.</h1>
-                <p>I am a full stack developer currently based in the UK</p>
+                <p id="intro">I am a full stack developer currently based in the UK.</p>
             </header>
         </div>
         <!--Introduction closeing div-->
-        <header>
-            <h2>About Me</h2>
+        <header id="projects-header">
+            <h2>Projects</h2>
         </header>
-        <section>
-            <p>My name is Dave, I am 30 years old and currently live in Northwich, UK.</p>
-            <p>I got into coding through working in the mobile phones industry. I would repair and fix mobile phones and
-                apps,which prompted my interest in tech. <br>
-                I went down the rabbit hole of how apps were built and looked into coding. I then started to do some
-                self-taught bits and recently started the Command Shift bootcamp to really push my skills and become job
-                ready <br>
-                The wage potential, flexibility and the oppurtunities surrounding tech were also a huge pull for me.</p>
-        </section>
-        <section id="qualities">
+        <div>
+            <!--projects opening div-->
+            <section class="projects">
+                <figure>
+                    <img src="../portfolio/images/record collection.jpg" alt="image of a record collection">
+                    <div class="text">
+                        <p>Music Library</p>
+                    </div>
+                    <!-- <figcaption>
+                        A site created to keep track of your music collection, as well as favourite releases from
+                        previous years.<br>
+                        Built using: HTML, CSS, JavaScript and React.
+                    </figcaption> -->
+                </figure>
+                <figure>
+                    <img src="../portfolio/images/gym.jpg" alt="image of a squart rack and some kettlebells">
+                    <div class="text">
+                        <p>Gym Tracker</p>
+
+                    </div>
+                    <!-- <figcaption>
+                        An app and site designed to help you keep track of your workouts, and for the Weight Tracker to
+                        calculate how best to progress.
+                        <br>
+                        Built using: HTML, CSS, JavaScript and React.
+                    </figcaption> -->
+                </figure>
+                <figure>
+                    <img src="../portfolio/images/dnd.jpg"
+                        alt="image of a dragon miniature and a soldier miniature on a set of gaming tiles">
+                    <div class="text">
+                        <p>D&D App</p>
+                    </div>
+                    <!-- <figcaption>
+                        I created this site to help pre-generate some random encounters for your Dungeons & Dragons
+                        game.
+                        The app works with drop down menus to generate random encounters based on party size, levels and
+                        enviroments.
+                        <br>
+                        Built using: HTML, CSS, JavaScript and React.
+                    </figcaption> -->
+                </figure>
+
+            </section>
+        </div>
+        <!--projects closing div-->
+        <!-- <section id="qualities">
             <h3>Qualities</h3>
             <ol>
                 <li>Great sense of humour</li>
@@ -51,9 +88,9 @@
                 <li>Gaming</li>
                 <li>Reading</li>
             </ul>
-        </section>
+        </section> -->
 
-        <footer>2023 Dave Bratby</footer>
+        <!-- <footer>2023 Dave Bratby</footer> -->
     </main>
 </body>
 

@@ -1,26 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
 * {
     margin: 0;
 }
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
 
 body{ 
-    font-family: "Poppins", sans-serif;
-    background: #37476C;
+    font-family: 'Lato', sans-serif;
+    background: #060e20;
+    color: #E6ECF3;
 }
 
+
 .introduction {  
-    color: #E6ECF3;
     display: flex;
-    border: solid, red;
+    justify-content: center;
     margin: 10vh;
-    height: 200px;
+    height: 20vh;
     
 }
 
 .navbar{
     display: flex;
     justify-content: space-around;
-    margin: 30px;
+    margin: 3vh;
     font-size: 3vh;
 }
 
@@ -30,9 +32,44 @@ a{
     color: #E6ECF3;
 }
 
-
-
 a:hover {
     color: #0EA5E9;
     transition: 0.25s;
 }
+
+#intro{
+    margin: 8vh 3vh 3vh 0;
+    font-size: 3vh;
+}
+
+h2 {
+font-size: 2.5rem;
+}
+
+#projects-header{
+    text-align: center;
+}
+img{ 
+    width: 20rem;
+    height: 20rem;
+    
+}
+
+img:hover{
+    opacity: 0.5;
+    transition: 0.50s;
+}
+
+.projects{
+    margin-top: 5vw;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+  }
