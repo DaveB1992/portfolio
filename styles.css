@@ -67,6 +67,7 @@ img:hover{
 }
 
 .projects{
+    text-align: center;
     margin-top: 5vw;
     display: flex;
     justify-content: space-evenly;
@@ -75,7 +76,3 @@ img:hover{
     gap: 2rem;
 }
 
-.text {
-    display: flex;
-    justify-content: center;
-  }
