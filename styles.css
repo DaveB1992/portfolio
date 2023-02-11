@@ -10,7 +10,6 @@ body{
     color: #E6ECF3;
 }
 
-
 .introduction {  
     display: flex;
     justify-content: center;
@@ -21,9 +20,15 @@ body{
 
 .navbar{
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-end;
     margin: 3vh;
     font-size: 3vh;
+    gap: 2rem;
+}
+
+#github{
+    height: 3rem;
+    width: 3rem;
 }
 
 a{
@@ -52,7 +57,8 @@ font-size: 2.5rem;
 img{ 
     width: 20rem;
     height: 20rem;
-    
+    border: solid, black;
+    border-radius: 25px;
 }
 
 img:hover{
