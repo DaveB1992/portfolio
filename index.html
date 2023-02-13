@@ -11,15 +11,15 @@
 
 <body>
     <main>
+        <!-- <div class="icons">
+        </div> -->
         <nav class="navbar">
-            <div class="icons">
-                <a href="https://github.com/DaveB1992" target="blank"> <img src="../portfolio/images/github.png"
-                        id="github"></a>
-                <a href="https://twitter.com/DaveDoesCoding" target="blank"> <img
-                        src="../portfolio/images/twitter-sign.png" id="github"></a>
-            </div>
-            <a href="./pages/contact.html " target="_blank">Contact</a>
+            <a href="#contact">Contact</a>
             <a href="./pages/projects.html" target="_blank">Projects</a>
+            <!-- <a href="https://github.com/DaveB1992" target="blank"> <img src="../portfolio/images/github.png"
+                    id="github"></a>
+            <a href="https://twitter.com/DaveDoesCoding" target="blank"> <img src="../portfolio/images/twitter-sign.png"
+                    id="github"></a> -->
         </nav>
         <div class="introduction">
             <header>
@@ -39,48 +39,48 @@
                     <div class="text">
                         <p>Music Library<br>A place to track your music collection.</p>
                     </div>
+                    <!--closing div for text-->
                 </figure>
                 <figure>
                     <img src="../portfolio/images/gym.jpg" alt="image of a squart rack and some kettlebells">
                     <div class="text">
                         <p>Gym Tracker</p>
-                        An app that's designed to track your weight lifting<br>progression and to log your
-                        workouts.
+                        <p>An app that's designed to track your weight lifting<br>progression and to log your
+                            workouts.
                         </p>
                     </div>
+                    <!--closing div for text-->
                 </figure>
                 <figure>
                     <img src="../portfolio/images/dnd.jpg"
                         alt="image of a dragon miniature and a soldier miniature on a set of gaming tiles">
                     <div class="text">
                         <p>D&D Encounter App</p>
+                        <p>I created this app and site to help Game Masters <br> create random encounters easily for
+                            their
+                            games. </p>
                     </div>
+                    <!--closing div for text-->
                 </figure>
-
             </section>
         </div>
-        <!--projects closing div-->
-        <!-- <section id="qualities">
-            <h3>Qualities</h3>
-            <ol>
-                <li>Great sense of humour</li>
-                <li>Excellent communicator</li>
-                <li>Very good listener</li>
-            </ol>
-        </section>
-        <section id="hobbies">
-            <h4>Hobbies And Interests</h4>
-            <ul>
-                <li>Dungeons And Dragons</li>
-                <li>Music</li>
-                <li>Swimming, Climbing and Hiking</li>
-                <li>Gaming</li>
-                <li>Reading</li>
-            </ul>
-        </section> -->
-
+        <!--closing div for projects-->
+        <div class="contact">
+            <!--opening div for contact-->
+            <header id="contact-header">
+                <h3>Looking to get in touch? Fill in the form below and lets connect</h3>
+            </header>
+            <label>
+                <input type="text" name="email" placeholder="Your email here">
+            </label>
+            <textarea cols="40" rows="5" name="message" spellcheck="false" placeholder="Your message here"></textarea>
+            <button onclick="clearText()" id="button">Submit
+            </button>
+        </div>
+        <!--closing div for contact-->
         <!-- <footer>2023 Dave Bratby</footer> -->
     </main>
+    <script src="script.js"></script>
 </body>
 
 </html>
