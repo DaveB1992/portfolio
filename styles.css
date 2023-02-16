@@ -14,8 +14,7 @@ body{
 .introduction {  
     display: flex;
     justify-content: center;
-    margin: 10vh;
-    height: 20vh;
+    margin: 10vh; 
     
 }
 
@@ -25,11 +24,6 @@ body{
     margin: 3vh;
     font-size: 3vh;
     gap: 2rem;
-}
-
-#github{
-    height: 3rem;
-    width: 3rem;
 }
 
 a{
@@ -83,6 +77,7 @@ img:hover{
     flex-direction: column;
     margin-top: 5vw;
     gap: 2rem;
+    flex-wrap: wrap;
 }
 
 h3 {
@@ -94,9 +89,12 @@ h3 {
      color: #E6ECF3;
      background-color: #0EA5E9;
      border: solid #0EA5E9;
-     border-radius: 20px;
+     border-radius: 10vw;
      width: 10vw;
+     min-width: fit-content;
      height: 5vh;
+     padding: 5px;
+     box-sizing: border-box;
  }
 
  input{
@@ -105,10 +103,11 @@ h3 {
      border-radius: 10px;
     }
     
-    textarea{
+ textarea{
         font-size: 3vh;
         border: solid;
-        border-radius: 10px;     
+        border-radius: 10px; 
+        display: flex;    
  }
 
  .icons{
@@ -124,5 +123,3 @@ h3 {
      height: 60px;
      width: 60px;
  }
-
- 
